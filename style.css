@@ -1,0 +1,44 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.pos-container {
+    max-width: 1200px;
+}
+
+/* Ensure menu card images are uniformly sized */
+.menu-img {
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Cart Item Styling */
+.cart-item {
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item h5 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.cart-item .qty {
+    color: #198754; /* Bootstrap success green */
+    font-size: 0.9rem;
+}
+
+/* Input styling for menu cards */
+.menu-qty-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
