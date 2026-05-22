@@ -1,8 +1,10 @@
 // 1. Menu Data Configuration
 const menuItems = [
     { id: 1, name: 'Burger', price: 60, img: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop' },
-    { id: 2, name: 'Fishbol', price: 20, img: 'https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=400&h=300&fit=crop' },
-    { id: 3, name: 'Kwek-kwek', price: 25, img: 'https://images.unsplash.com/photo-1626082914376-79d39b8b0e77?w=400&h=300&fit=crop' },
+    // Using your local authentic fishbol image
+    { id: 2, name: 'Fishbol', price: 20, img: 'fishbol.jpg' },
+    // Using your local authentic kwek-kwek image
+    { id: 3, name: 'Kwek-kwek', price: 25, img: 'kwekkwek.jpg' },
     { id: 4, name: 'Kikiam', price: 20, img: 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=400&h=300&fit=crop' }
 ];
 
