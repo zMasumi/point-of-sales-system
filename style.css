@@ -1,24 +1,84 @@
+/* Import Montserrat font to match the clean look of the landing page */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800&display=swap');
+
 body {
-    background-color: #f8f9fa; /* Light gray background */
+    background-color: #f4f6f8; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .pos-container {
     max-width: 1200px;
 }
 
-/* Ensure menu card images are uniformly sized */
+/* Header Styling */
+.bpm-title {
+    color: #b01b2e; /* Deep red from the landing page */
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 3rem;
+}
+
+.bpm-subtitle {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+/* Section Headings */
+.section-heading {
+    color: #111;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/* Menu Cards */
 .menu-img {
-    height: 150px;
+    height: 140px;
     object-fit: cover;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.card {
+    border: 1px solid #eaeaea !important;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-title {
+    color: #b01b2e;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+}
+
+.card-text {
+    font-weight: 600;
+    color: #444 !important;
+}
+
+/* Override Bootstrap Primary Button to match the theme */
+.btn-primary {
+    background-color: #b01b2e;
+    border-color: #b01b2e;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #8a1524;
+    border-color: #8a1524;
 }
 
 /* Cart Item Styling */
 .cart-item {
-    border: 1px solid #dee2e6;
-    border-radius: 0.375rem;
-    padding: 15px;
-    margin-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+    padding: 12px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,19 +86,27 @@ body {
 
 .cart-item h5 {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
 }
 
 .cart-item .qty {
-    color: #198754; /* Bootstrap success green */
+    color: #b01b2e;
+    font-weight: 700;
     font-size: 0.9rem;
 }
 
-/* Input styling for menu cards */
+.total-text {
+    font-weight: 800;
+    color: #111;
+}
+
 .menu-qty-input {
     width: 100%;
     margin-bottom: 10px;
-    padding: 5px;
+    padding: 6px;
     border: 1px solid #ced4da;
-    border-radius: 0.25rem;
+    border-radius: 4px;
+    text-align: center;
 }
