@@ -1,11 +1,30 @@
 // 1. Menu Data Configuration
+// Updated to match the BPM Grill "Setlist" with premium Teppanyaki items
 const menuItems = [
-    { id: 1, name: 'Burger', price: 60, img: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop' },
-    // Using your local authentic fishbol image
-    { id: 2, name: 'Fishbol', price: 20, img: 'fishbol.jpg' },
-    // Using your local authentic kwek-kwek image
-    { id: 3, name: 'Kwek-kwek', price: 25, img: 'kwekkwek.jpg' },
-    { id: 4, name: 'Kikiam', price: 20, img: 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=400&h=300&fit=crop' }
+    { 
+        id: 1, 
+        name: '"Full Combo" Fried Rice', 
+        price: 150, 
+        img: 'https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop' 
+    },
+    { 
+        id: 2, 
+        name: '"Perfect Score" Wagyu', 
+        price: 1200, 
+        img: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop' 
+    },
+    { 
+        id: 3, 
+        name: '"Triple Beat" Shrimp', 
+        price: 450, 
+        img: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=400&h=300&fit=crop' 
+    },
+    { 
+        id: 4, 
+        name: '"High Score" Scallops', 
+        price: 500, 
+        img: 'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400&h=300&fit=crop' 
+    }
 ];
 
 let cart = [];
